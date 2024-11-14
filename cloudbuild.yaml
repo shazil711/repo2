@@ -12,4 +12,4 @@ steps:
   - --allow-unauthenticated
 
 options:
-      logging: GCS_ONLY
+logging: CLOUD_LOGGING_ONLY
