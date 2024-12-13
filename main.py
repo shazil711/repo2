@@ -4,11 +4,13 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def greet():
-    print("Hello")
-    print("how are you dumb?")
+def area_of_square(side):
+    area = int(side * side)
+    print(area)
+ 
 
-greet()
+
+area_of_square(6)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
