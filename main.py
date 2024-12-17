@@ -7,10 +7,10 @@ app = Flask(__name__)
 
 
 
-def greet(name):
+def greet():
     return("hello")
 
-print(greet("name"))
+print(greet())
 
 
 
