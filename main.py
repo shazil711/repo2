@@ -6,12 +6,13 @@ app = Flask(__name__)
 @app.route('/')
 
 
+def password_controller(password):
+    if len(password) > 8:
+        return True
+    else:
+        return False
 
-def greet():
-    return("hello")
-
-print(greet())
-
+print(password_controller("123255553"))
 
 
 if __name__ == '__main__':
