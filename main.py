@@ -7,8 +7,9 @@ app = Flask(__name__)
 
 
 
-def sum_score(student_scores)
-print(sum_score(student_scores))
+def sum_score(student_scores):
+    print(sum_score(student_scores))
+
 
 
 if __name__ == '__main__':
