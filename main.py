@@ -7,8 +7,10 @@ app = Flask(__name__)
 
 
 
-def sum_score(student_scores):
-    print(sum_score(student_scores))
+def greet(name):
+    return("hello")
+
+print(greet("name"))
 
 
 
